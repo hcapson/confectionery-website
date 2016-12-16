@@ -82,13 +82,10 @@ a:hover {
   left: 3px;
 }
 
-.about {
-  position: relative;
-}
-
 .about-content {
   background-color: #69563d;
   color: #fff;
+  position: relative;
 }
 
 .prices {
@@ -145,6 +142,10 @@ td {
     margin: 0 0 1.3rem;
   }
 
+  .logo {
+    width: 60px;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -159,10 +160,8 @@ td {
     margin: 0 0 1.4rem;
   }
 
-  nav {
-    float: right;
-    background-color: #f2f2f2;
-    color: #333;
+  .logo {
+    width: 70px;
   }
 
 }
@@ -187,4 +186,7 @@ td {
     font-size: 130%;
   }
 
+  .logo {
+    width: 100px;
+  }
 }
